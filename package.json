@@ -1,6 +1,6 @@
 {
   "name": "frontend-rezume",
-  "homepage": "https://lgavlich.github.io/myCV",
+  "homepage": "https://lgavlich.github.io/frontend-rezume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
