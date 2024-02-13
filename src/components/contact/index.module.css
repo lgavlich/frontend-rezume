@@ -1,0 +1,97 @@
+.contact {
+  background-color: var(--primary30);
+  display: flex;
+  justify-content: space-between;
+  padding: 128px 48px 0;
+  position: relative;
+}
+.contactForm {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.form {
+  width: 100%;
+}
+.form h2 {
+  color: var(--main);
+  font-size: 42px;
+  font-family: 'Medium';
+  margin: 0 0 10px;
+}
+.formLabel {
+  display: flex;
+  flex-direction: column;
+}
+.formLabel label {
+  margin-bottom: 8px;
+  color: var(--main);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Medium';
+}
+.input {
+  background-color: var(--primary30);
+  border-radius: 30px;
+  text-transform: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Light';
+  border: 3px solid var(--primary);
+  transition: 100ms ease-out;
+  width: 70%;
+  padding: 10px 20px;
+}
+.input:focus-visible {
+  outline: none;
+}
+.sendBtn {
+  margin-top: 25px;
+}
+.error {
+  color: red;
+  font-family: 'Regular';
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+.preloader {
+  background-color: var(--main);
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  top: 10;
+  /* left: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.preloader span {
+  color: var(--primary400);
+  font-size: 60px;
+  font-family: 'Medium';
+}
+.btnResend {
+  background-color: var(--primary);
+  margin-top: 20px;
+  font-size: 42px;
+  width: fit-content;
+  color: var(--main);
+  height: 75px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 70px 24px 0;
+    flex-direction: column;
+  }
+  .contact img {
+    display: none;
+  }
+  .input {
+    width: 100%;
+  }
+}

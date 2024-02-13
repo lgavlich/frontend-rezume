@@ -1,0 +1,21 @@
+.footer {
+  padding: 48px;
+  background-color: var(--primary30);
+}
+.footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Light';
+  color: var(--main);
+}
+.footer p svg {
+  color: var(--avatar);
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 24px;
+  }
+}
