@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/frontend-rezume/static/css/main.47951938.css",
+    "main.js": "/frontend-rezume/static/js/main.fd5aa792.js",
+    "static/media/erbology.png": "/frontend-rezume/static/media/erbology.b870a739cffed6ecec2f.png",
+    "static/media/omnitech.png": "/frontend-rezume/static/media/omnitech.3db2d964b4e04038a038.png",
+    "static/media/cidt.png": "/frontend-rezume/static/media/cidt.32d3564225d9290eb122.png",
+    "static/media/Poppins-Light.ttf": "/frontend-rezume/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/frontend-rezume/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/frontend-rezume/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/frontend-rezume/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/frontend-rezume/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-Black.ttf": "/frontend-rezume/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/BestermindRegular.ttf": "/frontend-rezume/static/media/BestermindRegular.e58a192233afb30a6a59.ttf",
+    "static/media/contactsOrange.svg": "/frontend-rezume/static/media/contactsOrange.e812446bf12a444a13b031404e3c7e84.svg",
+    "static/media/react.svg": "/frontend-rezume/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/html-5.svg": "/frontend-rezume/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/slack-icon.svg": "/frontend-rezume/static/media/slack-icon.9273514db511850f979d3223e5215fc2.svg",
+    "static/media/typescript-icon.svg": "/frontend-rezume/static/media/typescript-icon.ff34a1b08013556934e1cc0cf67c5baa.svg",
+    "static/media/css-3.svg": "/frontend-rezume/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/bootstrap.svg": "/frontend-rezume/static/media/bootstrap.4f4c52d75ff6e4fd91fa75febc052a19.svg",
+    "static/media/javascript.svg": "/frontend-rezume/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/tailwindcss-icon.svg": "/frontend-rezume/static/media/tailwindcss-icon.50fbcf516b9a3774e9a83272167059ae.svg",
+    "static/media/figma.svg": "/frontend-rezume/static/media/figma.f4520722e44b6d0f10bd222c891b3d91.svg",
+    "static/media/trello.svg": "/frontend-rezume/static/media/trello.928ecd0ef21db30aaede3f63eea28cbe.svg",
+    "index.html": "/frontend-rezume/index.html",
+    "main.47951938.css.map": "/frontend-rezume/static/css/main.47951938.css.map",
+    "main.fd5aa792.js.map": "/frontend-rezume/static/js/main.fd5aa792.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47951938.css",
+    "static/js/main.fd5aa792.js"
+  ]
+}
