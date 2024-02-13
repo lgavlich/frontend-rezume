@@ -1,18 +1,17 @@
 .banner {
   height: 700px;
   width: 100%;
-  /* max-width: 1440px;
-  margin: 0 auto; */
   overflow-x: hidden;
 }
 .bannerContainer {
+  max-width: 1440px;
+  margin: 0 auto;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .bannerLeft {
-  background-color: var(--primary);
   height: 100%;
   flex: 35%;
   display: flex;
@@ -20,12 +19,13 @@
   justify-content: flex-start;
 }
 .bannerLeft ul {
-  max-width: 350px;
+  /* max-width: 350px; */
   margin: 30px 30px 30px auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 10;
 }
 .socialLink {
   font-size: 36px;
@@ -59,7 +59,7 @@
   position: relative;
 }
 .bannerRightContent {
-  width: calc(100vw - 400px);
+  /* width: calc(100vw - 400px); */
   margin-left: auto;
   max-width: 35%;
   margin-right: auto;
@@ -99,6 +99,7 @@ h1 {
     flex: 35%;
   }
   .bannerLeft {
+    background-color: var(--primary);
     width: 100%;
   }
   .bannerLeft ul {

@@ -129,6 +129,13 @@ button {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+.MuiBox-root {
+  height: 100%;
+  background-color: var(--primary30);
+}
+.MuiDivider-root {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .menuSharp {
     color: var(--white);
