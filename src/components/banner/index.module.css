@@ -1,6 +1,7 @@
 .banner {
   height: 700px;
   width: 100%;
+  overflow-x: hidden;
 }
 .bannerContainer {
   height: 100%;

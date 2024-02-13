@@ -1,7 +1,7 @@
 .experience {
   background-color: var(--primary30);
   position: relative;
-  padding: 128px 48px 48px;
+  padding: 128px 48px;
 }
 .line {
   width: 100%;
@@ -24,11 +24,8 @@
   width: 85%;
   background-color: var(--primary);
 }
-/* .experienceContainer {
-  padding: 0 48px 0 48px;
-} */
 .experienceContainer h2 {
-  color: var(--main);
+  color: var(--primary);
   font-size: 42px;
   font-family: 'Medium';
   margin: 0 0 10px;
@@ -37,7 +34,7 @@
   color: var(--main);
   font-size: 30px;
   font-family: 'Regular';
-  margin: 0 0 10px;
+  margin: 0 0 35px;
 }
 .listWork {
   display: flex;
@@ -45,7 +42,7 @@
   justify-content: space-between;
 }
 .listWork li {
-  padding: 25px;
+  padding: 35px;
   max-width: 30%;
   border: 3px solid var(--primary);
   border-radius: 10px;
@@ -72,13 +69,24 @@
   font-size: 56px;
   font-weight: 400;
   font-family: 'SemiBold';
-  color: var(--avatar);
+  color: var(--primary);
+  margin: 0 0 10px;
 }
 .year span {
   font-weight: 400;
   font-size: 18px;
   font-family: 'SemiBold';
-  color: var(--avatar);
+  color: var(--primary);
+}
+.lineBottom {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 @media screen and (max-width: 1040px) {
   .experience {

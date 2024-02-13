@@ -24,6 +24,9 @@
   align-items: center;
   flex-direction: column;
 }
+.projectList a {
+  text-decoration: none;
+}
 .projectDescription {
   width: 100%;
 }

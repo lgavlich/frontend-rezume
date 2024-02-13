@@ -43,6 +43,11 @@ function Experience() {
           })}
         </ul>
       </div>
+      <div className={styles.lineBottom}>
+        <div className={styles.circle}></div>
+        <div className={styles.circle}></div>
+        <div className={styles.lineStyling}></div>
+      </div>
     </div>
   );
 }

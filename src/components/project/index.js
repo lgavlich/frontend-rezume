@@ -26,13 +26,15 @@ function Project() {
           {projects.map((el) => {
             return (
               <li key={el?.name}>
-                <div className={styles.imgContainer}>
-                  <img src={el?.img} />
-                </div>
-                <div className={styles.projectDescription}>
-                  <h3>{el?.name}</h3>
-                  <p>{el?.text}</p>
-                </div>
+                <a href={el.path}>
+                  <div className={styles.imgContainer}>
+                    <img src={el?.img} />
+                  </div>
+                  <div className={styles.projectDescription}>
+                    <h3>{el?.name}</h3>
+                    <p>{el?.text}</p>
+                  </div>
+                </a>
               </li>
             );
           })}

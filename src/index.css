@@ -90,6 +90,9 @@ button {
   font-family: 'Medium';
   border: 3px solid var(--primary);
   transition: 100ms ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contactBtn a {
   color: var(--main);
@@ -124,6 +127,7 @@ button {
 }
 .css-tlelie-MuiListItemText-root {
   margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 @media screen and (max-width: 768px) {
   .menuSharp {

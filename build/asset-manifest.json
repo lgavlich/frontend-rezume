@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/frontend-rezume/static/css/main.47951938.css",
-    "main.js": "/frontend-rezume/static/js/main.fd5aa792.js",
-    "static/media/erbology.png": "/frontend-rezume/static/media/erbology.b870a739cffed6ecec2f.png",
+    "main.css": "/frontend-rezume/static/css/main.0df7b932.css",
+    "main.js": "/frontend-rezume/static/js/main.60fcf41c.js",
+    "static/media/gardens.png": "/frontend-rezume/static/media/gardens.c86b381df48c980d1a75.png",
+    "static/media/erbology.png": "/frontend-rezume/static/media/erbology.507d3913d0eb455390e6.png",
     "static/media/omnitech.png": "/frontend-rezume/static/media/omnitech.3db2d964b4e04038a038.png",
-    "static/media/cidt.png": "/frontend-rezume/static/media/cidt.32d3564225d9290eb122.png",
     "static/media/Poppins-Light.ttf": "/frontend-rezume/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/frontend-rezume/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Medium.ttf": "/frontend-rezume/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
@@ -24,11 +24,11 @@
     "static/media/figma.svg": "/frontend-rezume/static/media/figma.f4520722e44b6d0f10bd222c891b3d91.svg",
     "static/media/trello.svg": "/frontend-rezume/static/media/trello.928ecd0ef21db30aaede3f63eea28cbe.svg",
     "index.html": "/frontend-rezume/index.html",
-    "main.47951938.css.map": "/frontend-rezume/static/css/main.47951938.css.map",
-    "main.fd5aa792.js.map": "/frontend-rezume/static/js/main.fd5aa792.js.map"
+    "main.0df7b932.css.map": "/frontend-rezume/static/css/main.0df7b932.css.map",
+    "main.60fcf41c.js.map": "/frontend-rezume/static/js/main.60fcf41c.js.map"
   },
   "entrypoints": [
-    "static/css/main.47951938.css",
-    "static/js/main.fd5aa792.js"
+    "static/css/main.0df7b932.css",
+    "static/js/main.60fcf41c.js"
   ]
 }

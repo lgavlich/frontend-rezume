@@ -1,5 +1,5 @@
 // import dao from '../assets/image/dao.png';
-import cidt from '../assets/image/cidt.png';
+import gardens from '../assets/image/gardens.png';
 import omnitech from '../assets/image/omnitech.png';
 import erbology from '../assets/image/erbology.png';
 
@@ -82,13 +82,13 @@ export const projects = [
   {
     name: 'Erbology',
     img: erbology,
-    text: 'BAD online store'
-    // path: 'https://github.com/ConsiderItDone/dao-wallet',
+    text: 'BAD online store',
+    path: 'https://erbology.co/'
   },
   {
-    name: 'Consider It Done Technologies',
-    img: cidt,
-    text: 'Marketing page'
-    // path: "https://consideritdone.tech/",
+    name: 'Gardens 24/7',
+    img: gardens,
+    text: 'Is a full-service gardening and landscaping company based in Woodford',
+    path: 'http://gardens247.co.uk/'
   }
 ];
