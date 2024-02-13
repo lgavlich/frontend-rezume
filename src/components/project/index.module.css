@@ -1,5 +1,6 @@
 .project {
-  background-color: var(--primary30);
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 128px 48px 0;
 }
 

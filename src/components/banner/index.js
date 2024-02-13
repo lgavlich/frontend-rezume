@@ -35,21 +35,20 @@ function Banner() {
             </li>
           </ul>
         </div>
-        <Avatar
-          avatarStyle="Circle"
-          topType="LongHairBob"
-          accessoriesType="Blank"
-          hairColor="Blonde"
-          facialHairType="Blank"
-          clotheType="BlazerShirt"
-          eyeType="Default"
-          eyebrowType="Default"
-          mouthType="Twinkle"
-          skinColor="Pale"
-          className={styles.bannerAvatar}
-        />
-        {/* <img src={avatar} alt="photo" className={styles.bannerAvatar} /> */}
         <div className={styles.bannerRight}>
+          <Avatar
+            avatarStyle="Circle"
+            topType="LongHairBob"
+            accessoriesType="Blank"
+            hairColor="Blonde"
+            facialHairType="Blank"
+            clotheType="BlazerShirt"
+            eyeType="Default"
+            eyebrowType="Default"
+            mouthType="Twinkle"
+            skinColor="Pale"
+            className={styles.bannerAvatar}
+          />
           <motion.div
             transition={{ type: 'linear', duration: 1 }}
             animate={isInView ? 'enter' : 'hidden'}

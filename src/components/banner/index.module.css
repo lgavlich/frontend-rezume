@@ -1,6 +1,8 @@
 .banner {
   height: 700px;
   width: 100%;
+  /* max-width: 1440px;
+  margin: 0 auto; */
   overflow-x: hidden;
 }
 .bannerContainer {
@@ -8,7 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 .bannerLeft {
   background-color: var(--primary);
@@ -19,7 +20,8 @@
   justify-content: flex-start;
 }
 .bannerLeft ul {
-  margin: 30px;
+  max-width: 350px;
+  margin: 30px 30px 30px auto;
   width: 100%;
   display: flex;
   align-items: center;
@@ -39,27 +41,28 @@
 .bannerAvatar {
   --img-size: 400px;
   position: absolute;
-  left: 35%;
+  left: 0;
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);
   object-fit: cover;
   border-radius: 50%;
-  /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); */
   transition: opacity 0.3s;
 }
 .bannerRight {
-  background-color: var(--primary30);
   height: 100%;
   flex: 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  position: relative;
 }
 .bannerRightContent {
-  width: 45%;
-  margin-right: 110px;
+  width: calc(100vw - 400px);
+  margin-left: auto;
+  max-width: 35%;
+  margin-right: auto;
 }
 .bannerRightContent h6,
 h1 {
@@ -102,11 +105,12 @@ h1 {
     display: none;
   }
   .bannerAvatar {
-    --img-size: 250px;
-    top: 0;
+    --img-size: 200px;
+    top: -80%;
     left: 50%;
   }
   .bannerRightContent {
+    max-width: 100%;
     width: 100%;
     margin: auto;
     padding: 0 24px;

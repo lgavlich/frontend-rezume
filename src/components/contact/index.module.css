@@ -1,8 +1,6 @@
 .contact {
-  background-color: var(--primary30);
   display: flex;
   justify-content: space-between;
-  padding: 128px 48px 0;
   position: relative;
 }
 .contactForm {
@@ -10,6 +8,7 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
+  padding: 128px 48px 0;
 }
 .form {
   width: 100%;
